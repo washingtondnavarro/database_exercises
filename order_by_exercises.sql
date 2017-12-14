@@ -26,5 +26,5 @@ USE employees;
 
 # Change the query for employees hired in the 90s and born on Christmas such that the first result is the oldest employee who was hired last. It should be Khun Bernini.
 
-# SELECT last_name, birth_date, hire_date FROM employees WHERE employees.hire_date like '199%' AND employees.birth_date like '%-12-25' ORDER BY employees.birth_date ASC, employees.hire_date DESC ;
 
+# SELECT last_name, birth_date, hire_date FROM employees WHERE employees.hire_date like '199%' AND employees.birth_date like '%-12-25' ORDER BY employees.birth_date ASC, employees.hire_date DESC ;
